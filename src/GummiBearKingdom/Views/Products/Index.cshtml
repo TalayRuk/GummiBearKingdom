@@ -1,10 +1,11 @@
-﻿@model IEnumerable<GummiBearKingdom.Models.Product>
+﻿@{
+    ViewData["Title"] = "Gummi Bear Kingdom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-<html>
-<head>
-    <title>Gummi Bear Products</title>
-</head>
-<body>
+@model IEnumerable<GummiBearKingdom.Models.Product>
+
+
     <h2>Gummi Bear Products</h2>
     <hr />
     <h4>@Html.DisplayNameFor(model => model.Name)</h4>
@@ -19,6 +20,3 @@
     </ul>
     <h4>@Html.ActionLink("Add new product", "Create")</h4>
 
-</body>
-
-</html>
