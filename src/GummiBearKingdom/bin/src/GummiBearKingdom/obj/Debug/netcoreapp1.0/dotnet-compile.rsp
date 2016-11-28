@@ -1,5 +1,5 @@
---temp-output:c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\
---out:c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\bin\Debug\netcoreapp1.0\GummiBearKingdom.dll
+--temp-output:C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\bin\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\
+--out:C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\bin\src\GummiBearKingdom\bin\Debug\netcoreapp1.0\GummiBearKingdom.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -194,12 +194,15 @@
 --reference:C:\Users\Vichitra Pool\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Vichitra Pool\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Vichitra Pool\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
-c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Program.cs
-c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Startup.cs
-c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Controllers\HomeController.cs
-c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\Blog.cs
-c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\Category.cs
-c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\GummiBearContext.cs
-c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\Post.cs
-c:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\Product.cs
+--resource:"C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\bin\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Program.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Startup.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Controllers\HomeController.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161128073638_InitialCreate.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161128073638_InitialCreate.Designer.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Migrations\GummiBearContextModelSnapshot.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\Blog.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\Category.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\GummiBearContext.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\Post.cs
+C:\users\vichitra pool\documents\visual studio 2015\Projects\GummiBearKingdom\src\GummiBearKingdom\Models\Product.cs
