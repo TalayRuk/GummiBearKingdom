@@ -14,6 +14,11 @@ namespace GummiBearKingdom.Models
             : base(options)
         {
         }
+
+        public GummiBearContext()
+        {
+        }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

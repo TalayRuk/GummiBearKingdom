@@ -11,7 +11,7 @@
     <ul>
         @foreach (var listProduct in Model)
         {
-            <li>@Html.DisplayFor(modelProduct => listProduct.Name)</li>
+            <li>@Html.DisplayFor(modelProduct => listProduct.Name) | @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId })</li>
         }
     </ul>
 </body>
