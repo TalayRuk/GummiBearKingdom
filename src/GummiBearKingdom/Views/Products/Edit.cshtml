@@ -1,0 +1,28 @@
+﻿@model GummiBearKingdom.Models.Product
+
+<html>
+<head>
+    <title>Gummi Bear Product - Edit</title>
+</head>
+<body>
+    <h2>Edit</h2>
+    <hr />
+    <h4>Edit this Gummi: @Html.DisplayFor(model => model.Name)</h4>
+
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(model => model.ProductId)
+
+        @Html.LabelFor(model => model.Name)
+        @Html.EditorFor(model => model.Name)
+        @Html.LabelFor(model => model.Cost)
+        @Html.EditorFor(model => model.Cost)
+        @Html.LabelFor(model => model.Country_origin)
+        @Html.EditorFor(model => model.Country_origin)
+
+        <input type="submit" value="Save" />
+    }
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+
+</body>
+</html>
