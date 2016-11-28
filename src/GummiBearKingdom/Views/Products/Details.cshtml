@@ -1,16 +1,18 @@
 ﻿@model GummiBearKingdom.Models.Product
 
-<html>
-<head>
-    <title>Gummi Bear Product - Details</title>
-</head>
-<body>
+<@{
+    ViewData["Title"] = "Product - Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
     <h2>Gummi Bear Product - Details</h2>
     <hr />
-    @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
-    @Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost)
-    @Html.DisplayNameFor(model => model.Country_origin): @Html.DisplayFor(model => model.Country_origin)
+    
+            <h4>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h4>
+            <h4>@Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost)</h4>
+            <h4>@Html..DisplayNameFor(model => model.Country_origin): @Html.DisplayFor(model => model.Country_origin)</h4>
 
-    <p>@Html.ActionLink("Back to list", "Index")</p>
-</body>
-</html>
+            <h4>@Html.DisplayNameFor(model => model.CategoryId) : @Html.DisplayFor(model => model.CategoryId)</h4>
+            <h4>@Html.ActionLink("Back to list", "Index")</h4>
+
+
+            

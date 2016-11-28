@@ -1,10 +1,9 @@
 ﻿@model GummiBearKingdom.Models.Product
 
-<html>
-<head>
-    <title>Gummi Bear Products - Create</title>
-</head>
-<body>
+@{
+    ViewData["Title"] = "Product - Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
     <h2>Create</h2>
     <hr />
     <h4>Add a new Product</h4>
@@ -17,8 +16,11 @@
         @Html.LabelFor(model => model.Country_origin)
         @Html.TextBoxFor(model => model.Country_origin)
 
-        <input type="submit" value="Add new product" />
+        @Html.LabelFor(model => model.CategoryId)
+        @Html.DropDownList("CategoryId")
+
+
+        <input type="submit" value="Create" class="btn btn-default" />
+
     }
     <p>@Html.ActionLink("Back to Products", "Index")</p>
-</body>
-</html>

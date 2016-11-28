@@ -1,10 +1,9 @@
 ﻿@model GummiBearKingdom.Models.Product
+@{
+    ViewData["Title"] = "Product - Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-<html>
-<head>
-    <title>Gummi Bear Product - Edit</title>
-</head>
-<body>
     <h2>Edit</h2>
     <hr />
     <h4>Edit this Gummi: @Html.DisplayFor(model => model.Name)</h4>
@@ -20,9 +19,10 @@
         @Html.LabelFor(model => model.Country_origin)
         @Html.EditorFor(model => model.Country_origin)
 
+        @Html.LabelFor(model => model.CategoryId)
+        @Html.DropDownList("CategoryId")
+
+
         <input type="submit" value="Save" />
     }
     <p>@Html.ActionLink("Back to list", "Index")</p>
-
-</body>
-</html>

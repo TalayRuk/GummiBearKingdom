@@ -18,17 +18,19 @@ namespace GummiBearKingdom.Controllers
         public IActionResult Index()
         {
             return View(db.Products.Include(products => products.Category).ToList());
+            
+
         }
-        
+
         public IActionResult Details(int id)
         {
-            var thisProduct = db.Products.FirstOrDefault(products => products.ProductId == id);
+            var thisProduct = db.Products.Include(products => products.Category).FirstOrDefault(products => products.ProductId == id);
             return View(thisProduct);
         }
 
         public IActionResult Create()
         {
-            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Subject");
+            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Type");
             return View();
         }
 
@@ -42,8 +44,8 @@ namespace GummiBearKingdom.Controllers
 
         public IActionResult Edit(int id)
         {
-            var thisProduct = db.Products.FirstOrDefault(products => products.ProductId == id);
-            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Subject");
+            var thisProduct = db.Products.Include(products => products.Category).FirstOrDefault(products => products.ProductId == id); 
+            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Type");
             return View(thisProduct);
         }
 

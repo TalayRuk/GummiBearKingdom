@@ -1,22 +1,44 @@
-﻿@{
-    ViewData["Title"] = "Gummi Bear Kingdom";
+﻿@model IEnumerable<GummiBearKingdom.Models.Product>
+
+@{
+    ViewData["Title"] = "Product";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@model IEnumerable<GummiBearKingdom.Models.Product>
 
 
-    <h2>Gummi Bear Products</h2>
-    <hr />
-    <h4>@Html.DisplayNameFor(model => model.Name)</h4>
-    <ul>
-        @foreach (var listProduct in Model)
-        {
-            <li>@Html.DisplayFor(modelItem => listProduct.Name) | 
-            @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) | 
-            @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) | 
-            @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })</li>
-        }
-    </ul>
-    <h4>@Html.ActionLink("Add new product", "Create")</h4>
+<hr />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category.Type)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var listProduct in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelProduct => listProduct.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelProduct => listProduct.Category.Type)
+            </td>
+            <td>
+
+                    @Html.DisplayFor(modelItem => listProduct.Name) |
+                    @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) |
+                    @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })
+                
+            </td>
+        </tr>
+    }
+</table>
+
+<h4>@Html.ActionLink("Add new product", "Create")</h4>
 
