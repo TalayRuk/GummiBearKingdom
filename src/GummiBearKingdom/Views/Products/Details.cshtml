@@ -1,0 +1,16 @@
+﻿@model GummiBearKingdom.Models.Product
+
+<html>
+<head>
+    <title>Gummi Bear Product - Details</title>
+</head>
+<body>
+    <h2>Gummi Bear Product - Details</h2>
+    <hr />
+    @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+    @Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost)
+    @Html.DisplayNameFor(model => model.Country_origin): @Html.DisplayFor(model => model.Country_origin)
+
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+</body>
+</html>
