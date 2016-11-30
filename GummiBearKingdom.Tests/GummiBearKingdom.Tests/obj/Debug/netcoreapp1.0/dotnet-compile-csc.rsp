@@ -190,4 +190,5 @@
 -r:"C:\Users\Vichitra Pool\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll"
 -r:"C:\Users\Vichitra Pool\Desktop\GummiBearKingdom\src\GummiBearKingdom\bin\Debug\netcoreapp1.0\GummiBearKingdom.dll"
 "C:\Users\Vichitra Pool\Desktop\GummiBearKingdom\GummiBearKingdom.Tests\GummiBearKingdom.Tests\ProductTest.cs"
+"C:\Users\Vichitra Pool\Desktop\GummiBearKingdom\GummiBearKingdom.Tests\GummiBearKingdom.Tests\ControllerTests\ProductsControllerTest.cs"
 "C:\Users\Vichitra Pool\Desktop\GummiBearKingdom\GummiBearKingdom.Tests\GummiBearKingdom.Tests\Properties\AssemblyInfo.cs"
