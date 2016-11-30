@@ -13,8 +13,10 @@ namespace GummiBearKingdom.Models
     {
         [Key]
         public int BlogId { get; set; }
-        public string Subject { get; set; }
-        public virtual ICollection<Post> Posts { get; set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public string Text_body { get; set; }
+       // public virtual ICollection<Post> Posts { get; set; }
     }
 }
 

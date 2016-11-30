@@ -13,7 +13,6 @@ namespace GummiBearKingdom.Models
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Blog> Blogs { get; set; }
-        public DbSet<Post> Posts { get; set; }
 
         //setup the db connection to Sqlserver
         protected override void OnConfiguring(DbContextOptionsBuilder options)
