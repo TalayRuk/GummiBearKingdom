@@ -8,9 +8,10 @@ using GummiBearKingdom.Models;
 namespace GummiBearKingdom.Migrations
 {
     [DbContext(typeof(GummiBearContext))]
-    partial class GummiBearContextModelSnapshot : ModelSnapshot
+    [Migration("20161130234008_DeletePostAndUpdateBlog")]
+    partial class DeletePostAndUpdateBlog
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.0-rtm-21431")
