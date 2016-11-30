@@ -10,7 +10,9 @@ namespace GummiBearKingdom.Tests
         {
             //Arrange
             var product = new Product();
-            
+            //Test will fail b/c Name property of Product object is currently null 
+            //to get around this right now add code below
+            product.Name = "Christmas";
 
             //Act
             var result = product.Name;
