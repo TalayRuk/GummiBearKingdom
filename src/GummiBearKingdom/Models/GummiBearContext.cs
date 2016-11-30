@@ -18,7 +18,7 @@ namespace GummiBearKingdom.Models
         //setup the db connection to Sqlserver
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=GummiBearKingdom;intergrated security=True");
+            options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=GummiBearKingdom;integrated security=True");
         }
         public GummiBearContext(DbContextOptions<GummiBearContext> options) : base(options)
         {
