@@ -10,6 +10,7 @@ namespace GummiBearKingdom.Tests
         {
             //Arrange
             var product = new Product();
+            
 
             //Act
             var result = product.Name;
