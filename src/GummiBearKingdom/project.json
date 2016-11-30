@@ -16,7 +16,7 @@
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.NETCore.App": {
       "type": "platform",
-      "version": "1.0.1"
+      "version": "1.0.0"
     }
   },
 
@@ -30,14 +30,16 @@
       ]
     }
   },
-    "buildOptions": {
-      "emitEntryPoint": true,
-      "preserveCompilationContext": true
-    },
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+
     "frameworks": {
       "netcoreapp1.0": {
         "imports": [
           "dotnet5.6",
+          "dnxcore50",
           "portable-net45+win8"
         ]
       }
