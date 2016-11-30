@@ -24,7 +24,7 @@ namespace GummiBearKingdom.Controllers
 
         public IActionResult Details(int id)
         {
-            var thisProduct = db.Products.Include(products => products.Category).FirstOrDefault(products => products.ProductId == id);
+            var thisProduct = db.Products.FirstOrDefault(products => products.ProductId == id);
             return View(thisProduct);
         }
 
@@ -44,7 +44,7 @@ namespace GummiBearKingdom.Controllers
 
         public IActionResult Edit(int id)
         {
-            var thisProduct = db.Products.Include(products => products.Category).FirstOrDefault(products => products.ProductId == id); 
+            var thisProduct = db.Products.FirstOrDefault(products => products.ProductId == id); 
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Type");
             return View(thisProduct);
         }
