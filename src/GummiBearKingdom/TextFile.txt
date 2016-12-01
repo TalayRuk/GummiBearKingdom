@@ -1,0 +1,6 @@
+﻿To Do List
+1. Add Blog crud
+//hold for pre-populating data 
+2. Add Authorization user
+3. Work on Styling
+4. pre-populate data 
