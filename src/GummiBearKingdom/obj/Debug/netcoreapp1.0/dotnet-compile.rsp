@@ -198,12 +198,15 @@
 --resource:"C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Program.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Startup.cs
+C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Controllers\BlogsController.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Controllers\HomeController.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Controllers\ProductsController.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161128073638_InitialCreate.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161128073638_InitialCreate.Designer.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161130234008_DeletePostAndUpdateBlog.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161130234008_DeletePostAndUpdateBlog.Designer.cs
+C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201025344_AddImageToProducts.cs
+C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201025344_AddImageToProducts.Designer.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\GummiBearContextModelSnapshot.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Blog.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Category.cs

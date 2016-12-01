@@ -203,6 +203,8 @@
 "C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161130234008_DeletePostAndUpdateBlog.Designer.cs"
 "C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201025344_AddImageToProducts.cs"
 "C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201025344_AddImageToProducts.Designer.cs"
+"C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201032240_AddChangeImageName.cs"
+"C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201032240_AddChangeImageName.Designer.cs"
 "C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\GummiBearContextModelSnapshot.cs"
 "C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Blog.cs"
 "C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Category.cs"
