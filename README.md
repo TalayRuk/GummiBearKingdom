@@ -2,7 +2,7 @@
 wk1 .Net Core Friday Project using Entity framwork and migration
 # GUMMI BEAR KINGDOM
 
-#### _Create a mock-up site._
+#### _Create a mock-up site. Use http://www.albanesecandy.com/ as Sample Site_
 
 #### By _** Vichitra Pool / September 29th, 2016**_
 
