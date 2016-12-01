@@ -202,6 +202,8 @@ C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Controllers\Home
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Controllers\ProductsController.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161128073638_InitialCreate.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161128073638_InitialCreate.Designer.cs
+C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161130234008_DeletePostAndUpdateBlog.cs
+C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161130234008_DeletePostAndUpdateBlog.Designer.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\GummiBearContextModelSnapshot.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Blog.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Category.cs
