@@ -219,6 +219,8 @@ C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201195014_DeleteDateTimeFromBlog.Designer.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201200319_ChangeBlogImageName.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201200319_ChangeBlogImageName.Designer.cs
+C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201233014_RenameProductImage_url.cs
+C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161201233014_RenameProductImage_url.Designer.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\GummiBearContextModelSnapshot.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Blog.cs
 C:\Users\epicodus\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Category.cs
