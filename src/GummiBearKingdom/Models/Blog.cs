@@ -21,6 +21,8 @@ namespace GummiBearKingdom.Models
         //public DateTime Date { get; set; }
 
         public string Image_url { get; set; }
+
+        [DataType(DataType.MultilineText)]
         public string Text_body { get; set; }
 
        // public virtual ICollection<Post> Posts { get; set; }

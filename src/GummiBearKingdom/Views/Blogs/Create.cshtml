@@ -1,0 +1,29 @@
+﻿@model GummiBearKingdom.Models.Blog
+
+@{
+    ViewData["Title"] = "Blog - Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Create</h2>
+<hr />
+<h4>Add a new Blog</h4>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Title)
+    @Html.TextBoxFor(model => model.Title)
+    <br /><br />
+    @Html.LabelFor(model => model.Author)
+    @Html.TextBoxFor(model => model.Author)
+    <br /><br />
+    @Html.LabelFor(model => model.Image_url)
+    @Html.TextBoxFor(model => model.Image_url)
+    <br /><br />
+    @Html.LabelFor(model => model.Text_body)
+    @Html.EditorFor(model => model.Text_body)
+
+
+
+    <input type="submit" value="Create" class="btn btn-default" />
+
+}
+<p>@Html.ActionLink("Back to Products", "Index")</p>
