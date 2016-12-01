@@ -5,7 +5,7 @@
 #### By _** Vichitra Pool / September 29th, 2016**_
 
 ## Specs
- * User can find Information
+ * User can 
 
 
 
@@ -13,7 +13,7 @@
 1. Files can be cloned from https://github.com/TalayRuk/GummiBearKingdom.git 
 2. Open Visual Studio 2015 : File>Open>Project/Solution
 3. Click Build GummiBearKingdom 
-4. Click 
+4. Click IIS Express on the Menu Bar to go to the site
 
 
 ## Support and contact details
