@@ -21,13 +21,13 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelProduct => listBlog.Title)
+                @Html.DisplayFor(modelBlog => listBlog.Title)
                 <br />
-                @Html.DisplayFor(modelItem => listBlog.Author)
+                @Html.DisplayFor(modelBlog => listBlog.Author)
                 <br />
-                @Html.DisplayFor(modelProduct => listBlog.Image_url)
+                @Html.DisplayFor(modelBlog => listBlog.Image_url)
                 <br />
-                @Html.DisplayFor(modelProduct => listBlog.Text_body)
+                @Html.DisplayFor(modelBlog => listBlog.Text_body)
                 <br/>
                 @Html.ActionLink("Delete", "Delete", new { id = listBlog.BlogId })
                 <hr />
