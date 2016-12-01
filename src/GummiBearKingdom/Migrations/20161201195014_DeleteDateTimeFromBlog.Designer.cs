@@ -8,9 +8,10 @@ using GummiBearKingdom.Models;
 namespace GummiBearKingdom.Migrations
 {
     [DbContext(typeof(GummiBearContext))]
-    partial class GummiBearContextModelSnapshot : ModelSnapshot
+    [Migration("20161201195014_DeleteDateTimeFromBlog")]
+    partial class DeleteDateTimeFromBlog
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.0-rtm-21431")
@@ -23,7 +24,7 @@ namespace GummiBearKingdom.Migrations
 
                     b.Property<string>("Author");
 
-                    b.Property<string>("Image_url");
+                    b.Property<string>("ImageUrl");
 
                     b.Property<string>("Text_body");
 

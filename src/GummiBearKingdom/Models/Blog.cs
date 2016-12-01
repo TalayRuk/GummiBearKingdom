@@ -16,11 +16,13 @@ namespace GummiBearKingdom.Models
         public string Title { get; set; }
         public string Author { get; set; }
 
-        [Display(Name = "Date")]
-        [DataType(DataType.DateTime)]
-        public DateTime Date { get; set; }
-        public string ImageUrl { get; set; }
+        //[Display(Name = "Date")]
+        //[DataType(DataType.DateTime)]
+        //public DateTime Date { get; set; }
+
+        public string Image_url { get; set; }
         public string Text_body { get; set; }
+
        // public virtual ICollection<Post> Posts { get; set; }
     }
 }

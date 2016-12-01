@@ -1,0 +1,44 @@
+﻿@model IEnumerable<GummiBearKingdom.Models.Blog>
+
+@{
+    ViewData["Title"] = "Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<hr />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+    
+        <th>@Html.DisplayNameFor(model => model.Author)</th>
+    </tr>
+
+    @foreach (var listBlog in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelProduct => listBlog.Title)
+                <br />
+                @Html.DisplayFor(modelProduct => listBlog.Image_url)
+                <br />
+                @Html.DisplayFor(modelProduct => listBlog.Text_body)
+                <br/>
+                <hr />
+            </td>
+            <td>
+
+                @Html.DisplayFor(modelItem => listBlog.Author)
+                
+                
+            </td>
+        </tr>
+    }
+</table>
+ 
+
+<h4>@Html.ActionLink("Add new Blog", "Create")</h4>
+
