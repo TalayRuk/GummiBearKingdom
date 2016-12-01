@@ -15,7 +15,10 @@ namespace GummiBearKingdom.Models
         public int BlogId { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }
-        public DateTime date { get; set; }
+
+        [Display(Name = "Date")]
+        [DataType(DataType.DateTime)]
+        public DateTime Date { get; set; }
         public string ImageUrl { get; set; }
         public string Text_body { get; set; }
        // public virtual ICollection<Post> Posts { get; set; }
