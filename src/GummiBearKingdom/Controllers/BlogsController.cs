@@ -18,5 +18,17 @@ namespace GummiBearKingdom.Controllers
             //return list of blogs 
             return View(db.Blogs.ToList());
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Blog blog)
+        {
+            db.Blogs.Add(blog);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
