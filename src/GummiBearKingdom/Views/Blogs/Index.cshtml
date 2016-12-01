@@ -23,14 +23,16 @@
             <td>
                 @Html.DisplayFor(modelBlog => listBlog.Title)
                 <br />
-                @Html.DisplayFor(modelBlog => listBlog.Author)
-                <br />
-                @Html.DisplayFor(modelBlog => listBlog.Image_url)
+                By: @Html.DisplayFor(modelBlog => listBlog.Author)
+                <br /> <br />
+                
+                <img src="@listBlog.Image_url" alt="listBlog.Title" />
                 <br />
                 @Html.DisplayFor(modelBlog => listBlog.Text_body)
                 <br/>
                 @Html.ActionLink("Delete", "Delete", new { id = listBlog.BlogId })
                 <hr />
+                 
             </td>
             <td>
                
