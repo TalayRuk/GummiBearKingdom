@@ -1,6 +1,17 @@
 ﻿To Do List
-1. Add Blog crud
-//hold for pre-populating data 
+1. Add Blog crud done
+**Product detail is not working b/c image tag 
 2. Add Authorization user
+
 3. Work on Styling
-4. pre-populate data 
+later
+4. Add DateTime.Now back in later 
+5. If all box not filled create error 
+
+@Html.LabelFor(model => model.CategoryId)
+    @Html.DropDownList("CategoryId")
+
+
+@Html.ActionLink("Details", "Details", new { id = listBlog.ProductId }) |
+                @Html.ActionLink("Edit", "Edit", new { id = listBlog.ProductId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = listBlog.ProductId })
