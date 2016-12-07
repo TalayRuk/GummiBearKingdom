@@ -40,7 +40,7 @@ namespace GummiBearKingdom.Controllers
         }
         public IActionResult Edit(int id)
         {
-            var thisBlog = db.Blogs.FirstOrDefault(b => b.BlogId == Id);
+            var thisBlog = db.Blogs.FirstOrDefault(b => b.BlogId == id);
             return View(thisBlog);
         }
 

@@ -53,6 +53,7 @@ namespace GummiBearKingdom.Controllers
         public IActionResult Edit(Product product)
         {
             db.Entry(product).State = EntityState.Modified;
+            //Error edit won't save change due to Database operation expected to affect 1 row(s) but actually affected 0 row(s) 
             db.SaveChanges();
             return RedirectToAction("Index");
         }
