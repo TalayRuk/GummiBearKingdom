@@ -20,6 +20,11 @@ namespace GummiBearKingdom.Controllers
             //return list of blogs 
             return View(thisBlog.ToList());
         }
+        public IActionResult Details(int id)
+        {
+            var thisBlog = db.Blogs.FirstOrDefault(b => b.BlogId == id);
+            return View(thisBlog);
+        }
         public IActionResult Create()
         {
             return View();

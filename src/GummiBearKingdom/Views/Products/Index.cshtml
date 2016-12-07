@@ -5,40 +5,41 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<div class="container">
 
-
-<hr />
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Category.Type)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        
-        <th></th>
-    </tr>
-
-    @foreach (var listProduct in Model)
-    {
+    <hr />
+    <table class="table">
         <tr>
-            <td>
-                @Html.DisplayFor(modelProduct => listProduct.Category.Type)
-            </td>
-            <td>
-                @Html.DisplayFor(modelProduct => listProduct.Name)
-                <br /><br />
-                <img src="@listProduct.Image_url" alt="@listProduct.Name" />
-                <br /><br />
-                @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) |
-                @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })
-            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.Category.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
 
+            <th></th>
         </tr>
-    }
-</table>
 
-<h4>@Html.ActionLink("Add new product", "Create")</h4>
+        @foreach (var listProduct in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelProduct => listProduct.Category.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelProduct => listProduct.Name)
+                    <br /><br />
+                    <img src="@listProduct.Image_url" alt="@listProduct.Name" />
+                    <br /><br />
+                    @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) |
+                    @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })
+                </td>
 
+            </tr>
+        }
+    </table>
+
+    <h4>@Html.ActionLink("Add new product", "Create")</h4>
+
+</div>

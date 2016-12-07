@@ -5,43 +5,42 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<div class="container">
 
-
-<hr />
-<table class="table">
-    <tr>
-        <th>
-            <h1>Welcome To Gummi Bear Kingdom Blog</h1>
-            <br /> 
-            <h4>@Html.ActionLink("Add new Blog", "Create")</h4>
-        </th>
-    </tr>
-
-    @foreach (var listBlog in Model)
-    {
+    <hr />
+    <table class="table">
         <tr>
-            <td>
-                @Html.DisplayFor(modelBlog => listBlog.Title)
+            <th>
+                <h1>Welcome To Gummi Bear Kingdom Blog</h1>
                 <br />
-                By: @Html.DisplayFor(modelBlog => listBlog.Author)
-                <br /> <br />
-                
-                <img src="@listBlog.Image_url" alt="listBlog.Title" />
-                <br />
-                @Html.DisplayFor(modelBlog => listBlog.Text_body)
-                <br/>
-                @Html.ActionLink("Delete", "Delete", new { id = listBlog.BlogId })
-                <hr />
-                 
-            </td>
-            <td>
-               
-            </td>
-            
+                <h4>@Html.ActionLink("Add new Blog", "Create")</h4>
+            </th>
         </tr>
-    }
-</table>
- 
+
+        @foreach (var listBlog in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelBlog => listBlog.Title)
+                    <br />
+                    By: @Html.DisplayFor(modelBlog => listBlog.Author)
+                    <br /> <br />
+
+                    <img src="@listBlog.Image_url" alt="listBlog.Title" />
+                    <br />
+                    @Html.DisplayFor(modelBlog => listBlog.Text_body)
+                    <br />
+                    @Html.ActionLink("Details", "Details", new { id = listBlog.BlogId })
+                    @Html.ActionLink("Delete", "Delete", new { id = listBlog.BlogId })
+                    <hr />
+
+                </td>
+                <td></td>
+
+            </tr>
+        }
+    </table>
+</div> 
 
 
 
