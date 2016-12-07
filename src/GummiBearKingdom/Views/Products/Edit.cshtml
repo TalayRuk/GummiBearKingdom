@@ -12,16 +12,16 @@
     @using (Html.BeginForm())
     {
         @Html.LabelFor(model => model.Name)
-        @Html.TextBoxFor(model => model.Name)
+        @Html.EditorFor(model => model.Name)
         <br /><br />
         @Html.LabelFor(model => model.Cost)
-        @Html.TextBoxFor(model => model.Cost)
+        @Html.EditorFor(model => model.Cost)
         <br /><br />
         @Html.LabelFor(model => model.Image_url)
-        @Html.TextBoxFor(model => model.Image_url)
+        @Html.EditorFor(model => model.Image_url)
         <br /><br />
         @Html.LabelFor(model => model.Country_origin)
-        @Html.TextBoxFor(model => model.Country_origin)
+        @Html.EditorFor(model => model.Country_origin)
         <br /><br />
         @Html.LabelFor(model => model.CategoryId)
         @Html.DropDownList("CategoryId")

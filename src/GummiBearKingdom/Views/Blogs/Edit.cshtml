@@ -11,17 +11,19 @@
 
     @using (Html.BeginForm())
     {
+        @Html.HiddenFor(model => model.BlogId)
+
         @Html.LabelFor(model => model.Title)
-        @Html.TextBoxFor(model => model.Title)
+        @Html.EditorFor(model => model.Title)
         <br /><br />
         @Html.LabelFor(model => model.Author)
-        @Html.TextBoxFor(model => model.Author)
+        @Html.EditorFor(model => model.Author)
         <br /><br />
         @Html.LabelFor(model => model.Image_url)
-        @Html.TextBoxFor(model => model.Image_url)
+        @Html.EditorFor(model => model.Image_url)
         <br /><br />
         @Html.LabelFor(model => model.Text_body)
-        @Html.TextBoxFor(model => model.Text_body)
+        @Html.EditorFor(model => model.Text_body)
         <br /><br />
         
 

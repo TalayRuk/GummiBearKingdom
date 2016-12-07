@@ -30,7 +30,8 @@
                     <br />
                     @Html.DisplayFor(modelBlog => listBlog.Text_body)
                     <br />
-                    @Html.ActionLink("Details", "Details", new { id = listBlog.BlogId })
+                    @Html.ActionLink("Edit", "Edit", new { id = listBlog.BlogId }) |
+                    @Html.ActionLink("Details", "Details", new { id = listBlog.BlogId }) |
                     @Html.ActionLink("Delete", "Delete", new { id = listBlog.BlogId })
                     <hr />
 
