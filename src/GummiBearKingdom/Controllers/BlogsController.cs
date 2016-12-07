@@ -15,8 +15,10 @@ namespace GummiBearKingdom.Controllers
         private GummiBearContext db = new GummiBearContext();
         public IActionResult Index()
         {
+            //add arrange blog by newest first 
+            var thisBlog = db.Blogs.OrderByDescending(b => b.BlogId);
             //return list of blogs 
-            return View(db.Blogs.ToList());
+            return View(thisBlog.ToList());
         }
         public IActionResult Create()
         {

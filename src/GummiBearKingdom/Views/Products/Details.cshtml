@@ -9,9 +9,10 @@
     
             <h4>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h4>
             <h4>@Html.DisplayNameFor(model => model.Cost): $@Html.DisplayFor(model => model.Cost).00</h4>
-            <img scr="@Html.DisplayNameFor(model => model.Image_url)" alt="@Html.DisplayNameFor(model => model.Name)" />:
+            <img src="@Html.DisplayFor(model => model.Image_url)" alt="@Html.DisplayFor(model => model.Name)" />
             <h4>@Html.DisplayNameFor(model => model.Country_origin): @Html.DisplayFor(model => model.Country_origin)</h4>
             <h4>@Html.DisplayNameFor(model => model.CategoryId) : @Html.DisplayFor(model => model.CategoryId)</h4>
+            <br /><br />
             <h4>@Html.ActionLink("Back to list", "Index")</h4>
 
 
