@@ -29,7 +29,7 @@
             <td>
                 @Html.DisplayFor(modelProduct => listProduct.Name)
                 <br /><br />
-                <img src="@listProduct.Image_url" alt="listProduct.Title" />
+                <img src="@listProduct.Image_url" alt="@listProduct.Name" />
                 <br /><br />
                 @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) |
                 @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) |
