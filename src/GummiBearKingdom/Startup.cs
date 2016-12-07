@@ -55,7 +55,7 @@ namespace GummiBearKingdom
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Welcome to Gummi Bear Kingdom :D !");
+                await context.Response.WriteAsync("Gummi Bear!");
 
             });
         }
