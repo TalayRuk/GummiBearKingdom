@@ -1181,7 +1181,7 @@
     "Microsoft.DiaSymReader/1.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HAhTmRgU+nnDVYxMZFAS1iwqg6CudbsSMZfSY9UJj4AJO4L69xZCtTOPKC5rW8+egNBWjDb0iBZV4ZdNI6dZnA=="
+      "sha512": "sha512-ABLULVhCAiyBFLBT5xX6vB4NhZDgwUylGRQK+zW5nZn2rbh1f8LOnFZ9gVSxzL6qOzPNb32Nu3QZ43iZerHOxA=="
     },
     "Microsoft.DiaSymReader.Native/1.4.0-rc2": {
       "type": "package",
