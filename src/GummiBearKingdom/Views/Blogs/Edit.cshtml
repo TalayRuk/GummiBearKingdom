@@ -1,0 +1,32 @@
+﻿@model GummiBearKingdom.Models.Blog
+@{
+    ViewData["Title"] = "Blog - Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+
+    <h2>Edit</h2>
+    <hr />
+    <h4>Edit this Gummi's Blog: @Html.DisplayFor(model => model.Title)</h4>
+
+    @using (Html.BeginForm())
+    {
+        @Html.LabelFor(model => model.Title)
+        @Html.TextBoxFor(model => model.Title)
+        <br /><br />
+        @Html.LabelFor(model => model.Author)
+        @Html.TextBoxFor(model => model.Author)
+        <br /><br />
+        @Html.LabelFor(model => model.Image_url)
+        @Html.TextBoxFor(model => model.Image_url)
+        <br /><br />
+        @Html.LabelFor(model => model.Text_body)
+        @Html.TextBoxFor(model => model.Text_body)
+        <br /><br />
+        
+
+        <input type="submit" value="Save" class="btn btn-success" />
+    }
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+
+</div>

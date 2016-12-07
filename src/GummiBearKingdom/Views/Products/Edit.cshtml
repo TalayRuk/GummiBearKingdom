@@ -7,7 +7,7 @@
 
     <h2>Edit</h2>
     <hr />
-    <h4>Edit this Gummi: @Html.DisplayFor(model => model.Name)</h4>
+    <h4>Edit this Gummi's Product: @Html.DisplayFor(model => model.Name)</h4>
 
     @using (Html.BeginForm())
     {
@@ -27,8 +27,11 @@
         @Html.DropDownList("CategoryId")
 
 
-        <input type="submit" value="Save" />
+        <input type="submit" value="Save" class="btn btn-success"/>
     }
+    <br />
+    <p>@Html.ActionLink("View Details", "Details")</p>
+    <br />
     <p>@Html.ActionLink("Back to list", "Index")</p>
 
 </div>
